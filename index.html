@@ -9,102 +9,81 @@ Ankit Ganguly
  <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
+<link href="css/style.css" rel="stylesheet">
+
 <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Eagle+Lake' rel='stylesheet' type='text/css'>
-<style> 
-body, ul{
-	margin:0;
-	padding:0;
-}
+<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 
-.nav {
-	background-color: #2c3e50;
-	font-family: "Alegreya Sans";
-	text-align: center;
-}
-
-.nav ul {
-	display: inline-block;
-	list-style: none;
-}
-
-.nav li {
-	float:left;
-	margin:10px 20px;
-	padding: 5px 8px;
-	color: white;
-	font-size: 19px;
-}
-
-.nav li:hover {
-	background-color: #34495e;
-	cursor: pointer;
-}
-
-.cf:before, .cf:after {
-	content:" ";
-	display: table;
-}
-.cf:after {
-	clear:both;
-}
-
-.intro .intro-image {
-	float:left;
-	margin: 10px 15px;
-	padding: 70px 110px;
-}
-
-.intro-description {
-	float: right;
-	margin: 10px 15px;
-	padding: 278px 150px;
-	text-align: center;
-}
-
-.name {
-	font-family: "Alegreya Sans";
-	font-size: 28;
-	font-weight: bold;
-}
-
-.about h2{
-	text-align: center;
-}
-
-</style>
-
+<link href="/css/jquery.fullPage.css" rel="stylesheet"/>
 </head>
 <body> 
 
-	<div class="nav cf"> 
-		<ul class="cf">
-			<li>Home</li>
-			<li>About</li>
-			<li>Gallery</li>
-			<li>Contact</li>
+	<div style="z-index: 99999; position: fixed; top:0; left: 0; width: 100%;" class="nav cf">
+		<ul  id="menu" class="cf">
+			<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+			<li data-menuanchor="secondPage"><a href="#secondPage">About</a></li>
+			<li data-menuanchor="thirdPage"><a href="#thirdPage">Gallery</a></li>
+			<li data-menuanchor="forthPage"><a href="#forthPage">Contact</a></li>
 		</ul>
+	</div>
+
+	<div data-menuanchor="firstPage" class="section active intro" id="section0">
+			<div class="intro-text">
+			<h1>Hi, my name is Ankit Ganguly</h1>
+			<h2>I'm a Web & UX Designer</h2>
+		</div>
 
 	</div>
-<div class="intro">
-   <div class="intro-image">
-       <img style="width:400px;" src="face.jpg">
-   </div>
-   <div class="intro-description">
-       <h1 class="name">Hi, my name is Ankit Ganguly<br>
-       I'm a Web & UX Designer</h1>
-   </div>
-</div>
 
-<div class="about"> 
-	<h2>About Me</h2>
+<!-- PAGE 1 ENDS HERE -->
 
-</div>
+	<div data-menuanchor="secondPage" class="section" id="section1">
+	 	<h2 class="text-center">About Me</h2>
+	 	<h3 class="text-center">I'm a creative web developer and UX designer available for freelance.</h3>
+	</div>
+
+<!-- PAGE 2 ENDS HERE -->
+
+	<div data-menuanchor="thirdPage" class="section" id="section2">
+		<h2 class="text-center">Portfolio</h2>
+		<h3 class="text-center"> I'm preparing my professional portfolio currently. You can view some of my recent projects here.
+		<!-- <div class="slide" data-anchor="slide1"> Slide 1 </div>
+    	<div class="slide" data-anchor="slide2"> Slide 2 </div>
+    	<div class="slide" data-anchor="slide3"> Slide 3 </div>
+    	<div class="slide" data-anchor="slide4"> Slide 4 </div> -->
+	</div>
+
+<!-- PAGE 3 ENDS HERE -->
+
+	<div data-menuanchor="forthPage" class="section" id="section3">
+		<h2 class="text-center">Contact</h2>
+		<h3 class="text-center">
+			I'm very regular at reading and replying to emails and messages, you can shoot me one or just follow me.<br><br>
+		<a href="mailto:me@ankitganguly.com">me@ankitganguly.com</a><br>
+		<a href="https://www.facebook.com/ankitganguly.asn">fb.com/ankitganguly.asn</a><br>
+		<a href="https://twitter.com/ankitgangulyasn">twitter.com/ankitgangulyasn</a>
+		</h3>
+	</div>
+
+<!-- PAGE 4 ENDS HERE -->
 
 
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="/js/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+			$(document).ready(function() {
+				$.fn.fullpage({
+					slidesColor: ['#ffffff', '#f8f5ef', '#caccc9', 'rgba(133, 135, 141, 0.7)', '#ccddff'],
+					anchors: ['firstPage', 'secondPage', 'thirdPage', 'forthPage'],
+					menu: "#menu"
+				});
+			});
+	</script>
+
     <script src="js/bootstrap.min.js"></script>
 
 
