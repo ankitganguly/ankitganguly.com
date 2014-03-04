@@ -247,3 +247,107 @@ body, h1 {
     padding-bottom: 30px;
 }
 
+#gallery {
+    padding: 100px 0 150px 0;
+}
+
+.gallery-head {
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 300;
+}
+
+.gallery-head h1 {
+    font-weight: 300;
+}
+
+.gallery-head h2 {
+    font-size: 1.3125em;
+    font-weight: 300;
+}
+
+#gallery img {
+    border-radius: 6px;
+}
+
+#social {
+    background-color: #e8f8f5;
+    padding: 100px 0;
+}
+
+.social-icons {
+    margin: 0;
+}
+
+.social-icon {
+    border-radius: 50%;
+    background-color: #16a085;
+    color: #ffffff;
+    font-size: 2em;
+    height: 80px;
+    width: 80px;
+    padding: 16px;
+    transition: all 0.2s;
+}
+
+.social-icon:hover, .social-icon:focus {
+    background-color: #139077;
+}
+
+#subscribe {
+    background-color: #1abc9c;
+    color: #ffffff;
+    padding: 100px 0 150px 0;
+}
+
+.subscribe-head {
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 300;
+}
+
+.subscribe-head h1 {
+    font-weight: 300;
+}
+
+.subscribe-head h2 {
+    font-size: 1.3125em;
+    font-weight: 300;
+}
+
+.subscribe-form {
+    text-align: center;
+}
+
+.form-control {
+    width: 500px;
+    background-color: #e8f8f5;
+    border: 2px solid #1abc9c;
+    box-shadow: none;
+    color: #444;
+}
+
+.input-lg {
+    border-radius: 6px;
+    font-size: 1.125em;
+    height: 60px;
+    line-height: 1.33;
+    padding: 10px 16px;
+}
+
+.btn-3 {
+    background-color: #e74c3c;
+    color: #ffffff;
+    font-weight: 700;
+    width: 300px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #1abc9c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
