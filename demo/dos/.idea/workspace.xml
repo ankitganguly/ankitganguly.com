@@ -4,8 +4,8 @@
     <list default="true" id="49b24d1b-d8c3-42cc-ab79-254762cca06b" name="Default" comment="" />
     <ignored path="dos.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="49b24d1b-d8c3-42cc-ab79-254762cca06b" time="1393928438163" ignored="false" />
-    <file path="/style.css" changelist="49b24d1b-d8c3-42cc-ab79-254762cca06b" time="1393928850034" ignored="false" />
+    <file path="/index.html" changelist="49b24d1b-d8c3-42cc-ab79-254762cca06b" time="1393936895483" ignored="false" />
+    <file path="/style.css" changelist="49b24d1b-d8c3-42cc-ab79-254762cca06b" time="1393937099180" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="62" selection-start="4218" selection-end="4218" vertical-scroll-proportion="-26.25">
+            <state line="205" column="56" selection-start="8130" selection-end="8130" vertical-scroll-proportion="-20.75">
               <folding />
             </state>
           </provider>
@@ -37,7 +37,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="23" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.7123288">
+            <state line="249" column="0" selection-start="3477" selection-end="3477" vertical-scroll-proportion="0.91780823">
               <folding />
             </state>
           </provider>
@@ -244,16 +244,21 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/img/ipad-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="62" selection-start="4218" selection-end="4218" vertical-scroll-proportion="-26.25">
+        <state line="205" column="56" selection-start="8130" selection-end="8130" vertical-scroll-proportion="-20.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="23" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.7123288">
+        <state line="249" column="0" selection-start="3477" selection-end="3477" vertical-scroll-proportion="0.91780823">
           <folding />
         </state>
       </provider>

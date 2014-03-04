@@ -123,3 +123,127 @@ body, h1 {
     background-color: #2c3e50;
     color: #ffffff;
 }
+
+#developers {
+    padding: 100px 0 150px 0;
+}
+
+.developer-head {
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 300;
+}
+
+.developer-head h1 {
+    font-weight: 300;
+}
+
+.developer-head h2 {
+    font-size: 1.3125em;
+    font-weight: 300;
+}
+
+.developer {
+    text-align: center;
+}
+
+.developer h1 {
+    font-weight: 300;
+    font-size: 1.875em;
+}
+
+.developer h2 {
+    font-weight: 300;
+    font-size: 1.3125em;
+}
+
+#video {
+    background-color: #8cddcd;
+    color: #444;
+    padding: 150px 0 0 0;
+}
+
+.ipad-1 {
+    background-image: url(../img/ipad-1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 450px;
+    text-align: center;
+    padding-top: 255px;
+}
+
+.ipad-1 a {
+    color: #fff;
+}
+
+.ipad-1 a:hover,ipad-1 a:focus {
+    color: #999;
+}
+
+.video-head {
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 300;
+}
+
+.video-head h1 {
+    font-weight: 300;
+}
+
+.video-head h2 {
+    font-size: 1.3125em;
+    font-weight: 300;
+}
+
+#testimonials {
+    padding: 100px 0 150px 0;
+}
+
+.testimonial-head {
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 300;
+}
+
+.testimonial-head h1 {
+    font-weight: 300;
+}
+
+.testimonial-head h2 {
+    font-size: 1.3125em;
+    font-weight: 300;
+}
+
+.testimonial img {
+    float: left;
+}
+
+.testimonial p {
+    padding-top: 20px;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.testimonial h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #3498db;
+}
+
+#purchase {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+
+.purchase-head {
+    font-weight: 300;
+
+}
+
+.purchase-head h1 {
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
