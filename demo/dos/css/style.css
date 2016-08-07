@@ -319,6 +319,10 @@ body, h1 {
     text-align: center;
 }
 
+.subscribe-form input {
+    margin: 0 auto;
+}
+
 .form-control {
     width: 500px;
     background-color: #e8f8f5;
